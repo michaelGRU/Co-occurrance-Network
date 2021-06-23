@@ -9,8 +9,8 @@ from pathlib import Path
 #USER DEFINED VARIABLES 
 URL = Path(r"./data/from_russia_w_love.txt") # location of the text document 
 
-#the higher this number is, the fewer the number of nodes
-# If this number is set to low, you would only see a hairball 
+#ZOOM-IN controls the number of nodes you see
+# If this number is set too low, you would only see a hairball 
 ZOOM_IN = 20 
 
 #instead of letting the script find key words for you
