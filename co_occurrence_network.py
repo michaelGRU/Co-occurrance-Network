@@ -13,9 +13,10 @@ URL = Path(r"./data/from_russia_w_love.txt") # location of the text document
 # If this number is set too low, you would only see a hairball 
 ZOOM_IN = 20 
 
-#instead of letting the script find key words for you
 # you can define your own key words here 
 # the user-defined key words will be plotted instead
+# if you don't define the key words, the system will define 
+# it for you based on vertex degrees
 USE_INSTEAD = [
     "secret",
     "service",
